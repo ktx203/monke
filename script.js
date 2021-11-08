@@ -38,8 +38,9 @@ if (allCorrect) {
 	quoteWall.appendChild(quotewallpaper)
 	quotewallpaper.classList.add('background-text')
 }
-if (allCorrect && counter < 5) renderNewQuote()
 
+if (allCorrect && counter < 6) renderNewQuote()
+if (allCorrect && counter >= 6) hide()
 
 })
 
@@ -87,13 +88,13 @@ function hide() {
   } else {
     x.style.display = "none";
   }
-
   if (timerElement.style.display === "none") {
     timerElement.style.display = "block";
   } else {
     timerElement.style.display = "none";
   }
 }
+
 
 // var timeLeft = 30;
 // var elem = document.getElementById('timer');
