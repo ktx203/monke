@@ -9,7 +9,7 @@ body{
 	align-items: center;
 	min-height: 100vh;
 	margin: 0;
-	background-color: #666666;
+	background-color: lightgray;
 } 
 
 body, .quote-input {
@@ -55,6 +55,7 @@ h2 {
 	padding: .5rem 1rem;
 	font-size:  1rem;
 	border-radius: .5rem;
+	border-color: darkslateblue;
 }
 
 .quote-input:focus {
