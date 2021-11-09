@@ -64,7 +64,7 @@ async function renderNewQuote() {
 	})
 	quoteInputElement.value = null
 	counter++
-	startTimer()
+	startTimer() 
 }
 
 let startTime
