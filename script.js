@@ -95,7 +95,24 @@ function hide() {
   }
 }
 
+// function ss() {
+// 	var ele = $("#quoteWall");
+// 	html2canvas(ele,{
+// 		background: '#FFFFFF',
+// 		onrendered: function(canvas){
+// 			var imgData = canvas.toDataURL('image/jpeg');
+// 			$.ajax({
+// 				url = 'save.php',
+// 				type: 'post',
+// 				dataType: 'text',
+// 				data:{
+// 					base64data:imgData
+// 				}
 
+// 			});
+// 		}
+// 	});
+// }
 // var timeLeft = 30;
 // var elem = document.getElementById('timer');
 
