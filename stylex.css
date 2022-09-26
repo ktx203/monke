@@ -9,7 +9,7 @@ body{
 	align-items: center;
 	min-height: 100vh;
 	margin: 0;
-	background-color: lightgray;
+	background-color: #252525;
 } 
 
 body, .quote-input {
